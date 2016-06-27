@@ -57,6 +57,7 @@ ActiveRecord::Schema.define(version: 20161008115835) do
     t.string   "application_process"
     t.string   "twitter_handle"
     t.string   "state_province"
+    t.integer  "organizer_id"
   end
 
   create_table "users", force: :cascade do |t|
