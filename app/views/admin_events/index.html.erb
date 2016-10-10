@@ -20,7 +20,7 @@
               <span class="icon-approve" aria-label="approve icon"></span>
               <% end %>
             <% end %>
-            <%= link_to edit_admin_event_path(:id => event.id), class: "icon tooltip", title: "edit" do %>
+            <%= link_to edit_event_path(:id => event.id), class: "icon tooltip", title: "edit" do %>
              <span class="icon-edit" aria-label="edit icon"></span>
             <% end %>
             <%= link_to url_for(action: :destroy, id: event.id), method: :delete, data: { confirm: "Are you sure?"}, class: "icon tooltip", title: "delete" do %>
